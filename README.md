@@ -32,7 +32,7 @@ Clone this repository to your gdrive
 ## Setup the parameters and yolo settings
 Setting up the yolo with different instance name as your project required, change the parameters according to custom training, 
 
-![link to gdrive](temp/settings.PNG)
+![Setup yolo parameters](temp/settings.PNG)
 
 
 
@@ -42,12 +42,14 @@ The data structure should like this:
   
     ├── data
     ├────── train
-    ├──────── train
-    ├────── test
+    ├──────── --.jpg
+    ├──────── --.txt
+    ├───────test
     
     
 
 
 ## Generate train.names file and add all the classes name
 
+![create train.names file](temp/names_png.PNG)
 
