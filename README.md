@@ -36,7 +36,17 @@ Setting up the yolo with different instance name as your project required, chang
 
 
 
-## Upload the dataset to instance folder as structured bellow
+## Upload the dataset to instance's name folder
+After initilization the parameters of yolo, gather the dataset and label them according to yolo's label formating, and put the "data" folder in instance's name folder.
+The data structure should like this:
+  
+    ├── data
+    ├────── train
+    ├──────── train
+    ├────── test
+    
+    
+
 
 ## Generate train.names file and add all the classes name
 
