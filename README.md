@@ -4,6 +4,20 @@
 
 This repo contains a simple notebook **TheEasyYolo.ipynb** to train multiple instance of YoloV3 and YoloV4 with their tiny versions. You can train yolo with initilization of  different parameters like number of classes, channels, width and height. 
 
+The directory structure:
+-- TheEasyYolo
+-- -- Instance-1
+-- -- -- data
+-- -- -- -- train
+-- -- -- -- test
+-- -- Instance-2
+.
+.
+.
+-- -- Instance-N
+-- -- darknet
+-- -- TheEasyYolo.ipynb
+
 # Instructions
 ## Setup on Google Drive
 Link notebook with your google drive for saving checkpoint,
