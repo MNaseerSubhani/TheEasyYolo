@@ -15,7 +15,10 @@ Clone this repositry to your gdrive
 
 ## Setup the parameters and yolo settings
 Setting up the yolo with different instance name as your project required, change the parameters according to custom training, 
+
 ![link to gdrive](temp/settings.PNG)
+
+
 
 ## Upload the dataset to instance folder as structured bellow
 
