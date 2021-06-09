@@ -49,7 +49,7 @@ The data structure should like this:
     
 
 
-## Generate train.names file and add all the classes name
+## Generate train.names file and add all classes names
 
 ![create train.names file](temp/names_png.PNG)
 
