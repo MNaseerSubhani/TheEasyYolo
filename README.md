@@ -7,6 +7,7 @@ This repo contains a simple notebook **TheEasyYolo.ipynb** to train multiple ins
 # Instructions
 ## Setup on Google Drive
 Link notebook with your google drive for saving checkpoint,
+
 ![link to gdrive](temp/gdrive.PNG)
 
 ## Clone this repo
