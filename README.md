@@ -22,7 +22,7 @@ The directory structure:
 
 # Instructions
 ## Setup on Google Drive
-Link notebook with your google drive for saving checkpoint,
+Link notebook with your google drive for saving checkpoints,
  ```
  from google.colab import drive
  drive.mount('/content/drive')
@@ -50,7 +50,7 @@ yolo_ver = "YoloV4-tiny"            #The input should be YoloV4, YoloV4-tiny, Yo
 
 
 ## Upload the dataset to instance's name folder
-After initilization the parameters of yolo, gather the dataset and label them according to yolo's label formating, and put the "data" folder in instance's name folder.
+After initilization the parameters of yolo, gather the dataset and label them according to yolo's label format, and put the "data" folder in instance's name folder.
 The data structure should like this:
   
     ├── data
@@ -62,7 +62,7 @@ The data structure should like this:
     
 
 
-## Generate train.names file and add all classes names
+## Generate train.names file and add all class names
 ```
 %cd {instance_name}
 with open("train.names", "w") as f:   
