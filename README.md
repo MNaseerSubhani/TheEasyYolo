@@ -23,8 +23,10 @@ The directory structure:
 # Instructions
 ## Setup on Google Drive
 Link notebook with your google drive for saving checkpoint,
-
-![link to gdrive](temp/gdrive.PNG)
+ ```
+ from google.colab import drive
+ drive.mount('/content/drive')
+ ```
 
 ## Clone this repo
 Clone this repository to your gdrive
@@ -32,7 +34,18 @@ Clone this repository to your gdrive
 ## Setup the parameters and yolo settings
 Setting up the yolo with different instance name as your project required, change the parameters according to custom training, 
 
-![Setup yolo parameters](temp/settings.PNG)
+```
+instance_name = "instance_name"     # Put any name of the Instance 
+#set hyperparameters
+num_of_classes = 1                  # Total number of classes 
+channel = 3                         # Channel used "1 for Grayscale or 3 for RGB"
+sub_division = 16            
+width = 320                         # Width of input image
+height = 256                        # Height of input image
+batch = 32                          # batch size
+yolo_ver = "YoloV4-tiny"            #The input should be YoloV4, YoloV4-tiny, YoloV3, YoloV3-tiny
+
+```
 
 
 
@@ -50,6 +63,10 @@ The data structure should like this:
 
 
 ## Generate train.names file and add all classes names
-
-![create train.names file](temp/names_png.PNG)
-
+```
+%cd {instance_name}
+with open("train.names", "w") as f:   
+    f.write("class_name")
+    #f.write("\nother classe")
+%cd ..
+```
