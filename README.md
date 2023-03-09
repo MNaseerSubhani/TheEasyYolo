@@ -70,3 +70,11 @@ with open("train.names", "w") as f:
     #f.write("\nother classe")
 %cd ..
 ```
+
+## Convert yolov2 model to tflite 
+#### Requirement
+    tensorflow  1.15
+```
+  1 - use this link to convert from .weights to .pb [![Link](https://gist.github.com/pra-dan/70944415aae7e6b3dc41d5ada1feb3e7/raw/8c2d5edf164aaf589ce66700f5aa05fc04509475/Darknet2TF_using_Darkflow.sh)
+  2 -  
+```
