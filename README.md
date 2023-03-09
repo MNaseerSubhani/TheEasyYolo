@@ -76,5 +76,8 @@ with open("train.names", "w") as f:
     tensorflow  1.15
 
   1 - use this link to convert from .weights to .pb [Link](https://gist.github.com/pra-dan/70944415aae7e6b3dc41d5ada1feb3e7/raw/8c2d5edf164aaf589ce66700f5aa05fc04509475/Darknet2TF_using_Darkflow.sh)
-  2 -  
+  2 -  run this command to convert into tflite 
+  ```
+  toco --graph_def_file built_graph/yolov2_coin.pb     --output_file yolo-v2-tiny-coco.tflite     --output_format TFLITE     --inference_type FLOAT     --inference_input_type FLOAT     --input_arrays input     --output_arrays output    --allow_custom_ops
+  ```
 
